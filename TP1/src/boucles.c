@@ -1,25 +1,25 @@
-# include <stdio.h>
+#include <stdio.h>
 
-int main(){
-int compteur =5;
-  
-  for (int i = 1; i<=compteur; i++){
-    for  (int j = 1; j <= i; j++){
+int main() {
+    int compteur = 5;   // tu peux changer la valeur (mais < 10)
 
-      if (i ==1 || i == 2 || i == compteur) {
-        printf("* ");
-      }
-      esle {
-        if (j == 1 || j == i)
-          printf("* ");
-       esle 
-        printf("# ")
-      }
+    for (int i = 1; i <= compteur; i++) {   // boucle des lignes
+        for (int j = 1; j <= i; j++) {      // boucle des colonnes
+
+            // Cas particuliers : première, deuxième et dernière ligne
+            if (i == 1 || i == 2 || i == compteur) {
+                printf("* ");
+            }
+            else {
+                // Lignes du milieu :
+                if (j == 1 || j == i)
+                    printf("* "); // les bords sont des *
+                else
+                    printf("# "); // l'intérieur est rempli de #
+            }
+        }
+        printf("\n"); // saut de ligne
     }
-    printf("\n");
-  }
-return 0;
+
+    return 0;
 }
-
-
-
