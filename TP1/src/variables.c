@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 
 int main(){
     // 1. char
@@ -40,3 +40,4 @@ int main(){
 
     return 0;
 }
+
