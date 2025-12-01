@@ -12,7 +12,7 @@ int main(){
       somme += i; 
     }
 
-    if ( somme >= 5000) {
+    if ( somme = 5000) {
       break;
     }
   }
@@ -20,4 +20,5 @@ int main(){
 
   return 0;
 }
+
 
