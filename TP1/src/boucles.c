@@ -12,7 +12,7 @@ int compteur =5;
       esle{
         if (j == 1 || j == i)
           printf("* ");
-      esle 
+       esle 
         printf("# ")
       }
     }
@@ -20,4 +20,5 @@ int compteur =5;
   }
 return 0;
 }
+
 
