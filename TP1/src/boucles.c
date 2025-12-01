@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int compteur = 5;   // tu peux changer la valeur (mais < 10)
+    int compteur = 5;    
 
     for (int i = 1; i <= compteur; i++) {   // boucle des lignes
         for (int j = 1; j <= i; j++) {      // boucle des colonnes
@@ -23,3 +23,4 @@ int main() {
 
     return 0;
 }
+
